@@ -1,0 +1,31 @@
+.hak{
+    font-size: medium;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+/* On screens that are less than 1025px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1370px) {
+    
+
+    .hakkımızda{
+        margin-top: -15rem !important;
+    }
+   
+  
+}
+
+/* On screens that are less than 1025px wide, make the sidebar into a topbar */
+@media screen and (max-width: 800px) {
+    .hakkımızda{
+        margin-top: 1rem !important;
+    }
+
+    .hak{
+        font-size: small !important;
+    }
+   
+  
+}
