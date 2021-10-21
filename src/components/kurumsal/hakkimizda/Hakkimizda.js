@@ -11,9 +11,7 @@ function Hakkimizda() {
         
         <div class="row" style={{justify: "center",margin:"auto"}}>
             
-           <div>
-               <AccessTimeIcon/> 
-           </div>
+           
             
             <div className="hakkımızda" style={{}}>
                 <h3 style={{textAlign:"center",color:"#4682B4"}}></h3>

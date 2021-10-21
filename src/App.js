@@ -25,7 +25,7 @@ function App() {
         <div className="col-12 m-0 p-0">
           
             
-        <div className="col-4 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"-1rem"}}>
+        <div className="col-12 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"1rem"}}>
                  &nbsp;
                   <a
                     href="https://wa.me/+905427724718"
