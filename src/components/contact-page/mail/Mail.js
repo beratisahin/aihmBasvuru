@@ -169,7 +169,7 @@ class Mail extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "#499078",
+                color: "#fdb11b",
                 padding:"1%",
                 fontSize:"x-large",
                 
@@ -183,7 +183,7 @@ class Mail extends Component {
                 display: "flex",
                 justifyContent: "center",
                 fontSize: "large",
-                color: "#499078",
+                color: "#fdb11b",
               }}
             >
               Size yardımcı olabilmek için buradayız.
@@ -273,7 +273,7 @@ class Mail extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#499078",display:"block",margin:"auto",align:"justify" }}
+                    style={{ backgroundColor:"#fdb11b",display:"block",margin:"auto",align:"justify" }}
                   >
                     <b>Gönder</b>
                   </button>

@@ -25,7 +25,7 @@ function Hakkimizda() {
                 <hr/>
                
                
-                <p className="baslik"><GavelIcon style={{color:"red",fontSize:"large"}}/> Avrupa İnsan Hakları Mahkemesi’ ne bireysel olarak başvuruda bulunmak istiyorsunuz, fakat;</p>
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Avrupa İnsan Hakları Mahkemesi’ ne bireysel olarak başvuruda bulunmak istiyorsunuz, fakat;</p>
                     <ul>
                         <li>Bürokratik işlemlerden sıkıldınız mı?</li>
                         <li>Başvuru işlemlerini yapacak ve takip edecek zamanınız yok mu?</li>
@@ -35,7 +35,7 @@ function Hakkimizda() {
                 
                <br/>
                <br/>
-                <p className="baslik"><GavelIcon style={{color:"red",fontSize:"large"}}/> AİHM'e kimler başvurabilir?
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> AİHM'e kimler başvurabilir?
                 AİHS 34.Maddeye göre;
                     <ul>
                         <li>Gerçek kişiler,</li>
@@ -49,7 +49,7 @@ function Hakkimizda() {
                 </p>
                 <br/>
                 <br/>
-                <p className="baslik"><GavelIcon style={{color:"red",fontSize:"large"}}/> AİHM'e başvuru şartları nelerdir?
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> AİHM'e başvuru şartları nelerdir?
                 AİHS 35.Maddeye göre;
                     <ul>
                         <li>AİHM başvurusundan önce iç hukuk yolları tüketilmiş olmalıdır. Bu aşamada
@@ -65,13 +65,13 @@ gidilmesi gereken son iç hukuk yolu Anayasa Mahkemesidir.</li>
                 </p>
                 <br/>
 
-                <p className="baslik"><GavelIcon style={{color:"red",fontSize:"large"}}/> Hemen arayın, AİHM bireysel başvurunuzu birlikte yapalım.
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Hemen arayın, AİHM bireysel başvurunuzu birlikte yapalım.
 Yaptığınız başvuruyu sizin için takip edelim.  </p>
                 <br/>
 
-                <p className="baslik"><GavelIcon style={{color:"red",fontSize:"large"}}/> Ayrıca;
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Ayrıca;
                     <ul>
-                        <li>Adli Sicil kaydının sildirilmesi konusunda  www.adlisicilkaydisildir.com</li>
+                       <li> Adli Sicil kaydının sildirilmesi konusunda  <a className="baglantı" style={{color:"#fdb11b",fontWeight:"bold"}} href="https://adlisicilsildir.com/" target="_blank">Adli Sicil Sildirme</a> </li>
                         
                     </ul>
                     sitesini ziyaret edip uzman ekibimiz ile irtibata geçebilirsiniz.

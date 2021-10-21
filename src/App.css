@@ -5,6 +5,24 @@
   background-color: #F5F5F3 !important;
 }
 
+
+.icon_top{
+  font-size: x-large !important;
+  color:#fdb11b !important;
+  margin-left: 1rem !important;
+}
+
+.icon_top:hover{
+  color:#3353cb
+  !important;
+}
+
+.top_icon_info{
+  font-size: medium !important;
+  color:#3353cb
+  !important;
+}
+
 /* for desktop */
 .whatsapp_float {
   position: fixed;
