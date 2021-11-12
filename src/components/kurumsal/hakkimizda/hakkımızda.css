@@ -6,16 +6,8 @@
     
 }
 
-/* On screens that are less than 1025px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1370px) {
-    
 
-    .hakkımızda{
-        margin-top: -15rem !important;
-    }
-   
-  
-}
+
 
 /* On screens that are less than 1025px wide, make the sidebar into a topbar */
 @media screen and (max-width: 800px) {
