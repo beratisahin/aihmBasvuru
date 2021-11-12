@@ -150,22 +150,17 @@
 }
 
 
-@media (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .image{
     flex: 100%;
     max-width: 480px;
   }
+  .more .read-more, .more .icon-links a i{
+    font-size: 14px;
+  }
   
 }
 
-@media (max-width: 400px){
-  .image .details p{
-    font-size: 16px;
-  }
-  .more .read-more, .more .icon-links a i{
-    font-size: 18px;
-  }
-}
 
 
 
@@ -190,7 +185,7 @@
     height: 110rem !important;
 
   }
-
+  
 }
 
 
@@ -215,6 +210,31 @@
         margin-bottom: 5rem !important;
         
       }
+      .image .details p{
+        font-size: 14px !important;
+       
+      }
+      .more .read-more, .more .icon-links a i{
+        font-size: small;
+      }
+    
 
      
+}
+
+/* On screens that are less than 800px wide, make the sidebar into a topbar */
+@media screen and (max-width: 400px) {
+  
+    .image .details p{
+      font-size: 14px !important;
+     
+    }
+    .more .read-more, .more a i{
+      font-size: x-small;
+    }
+    .icon-links{
+      display: none;
+    }
+
+   
 }

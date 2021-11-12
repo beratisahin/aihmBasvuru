@@ -12,20 +12,11 @@ function Home() {
       
 
       <div className="col-12 hakkımız" style={{ borderRadius: "1rem"}}>
-        <div class="row">
-          <img className="main_photo" src={aihm} style={{justifyContent:"center",margin:"auto",display:"block",height:"25rem",overflow:"hidden",marginBottom:"3rem"}}></img>
-        </div>
-        
-        <Hakkımızda />
-      </div>
-
-      <div className="row m-2">
-        <div className="col-sm-12 col-12">
-        <div class="image">
+      <div class="image">
                   <img src={aihm3} alt="AİHM" style={{width:"100%",height:"30rem"}}></img>
                   <div class="details">
                       <a href="#" style={{textDecoration:"none",color:"white"}}><h2><b>Avrupa İnsan Hakları Mahkemesi</b></h2></a>
-                      <p>Mahkeme teşkilatına ve onun yargılama usulüne ilişkin hükümler, Avrupa İnsan Hakları Sözleşmesinin İkinci Kısmında 19 ila 51. maddeler arasında ve AİHM İçtüzüğünde yer almaktadır. AİHM’de Sözleşmeye taraf ülke sayısı kadar hâkim görev yapar ve halen Mahkemede 47 hâkim vardır. Hâkimler, taraf devletler tarafından sunulan üç kişilik liste üzerinden Avrupa Konseyi Parlamenterler Meclisi tarafından seçilir. 9 yıllık bir süre için seçilen hâkimler yalnızca bir dönem görev yapabilirler. Ancak hâkimler, her durumda yetmiş yaşında emekli olurlar. Mahkemenin çalışmasında bir aksaklık olmaması amacıyla her hâkimin yenisi gelene kadar görev yapması esası da benimsenmiştir (Sözleşme, md. 20-23).</p>
+                      <p>Mahkeme teşkilatına ve onun yargılama usulüne ilişkin hükümler, Avrupa İnsan Hakları Sözleşmesinin İkinci Kısmında 19 ila 51. maddeler arasında ve AİHM İçtüzüğünde yer almaktadır.</p>
                   </div>
 
                   <div class="more">
@@ -39,6 +30,16 @@ function Home() {
                   </div>
 
                 </div>
+        
+        <Hakkımızda />
+      </div>
+
+      <div className="row m-2">
+        <div className="col-sm-12 col-12">
+        <div class="row">
+          <img className="main_photo" src={aihm} style={{justifyContent:"center",margin:"auto",display:"block",height:"25rem",overflow:"hidden",marginBottom:"3rem"}}></img>
+        </div>
+       
 
           
         </div>
