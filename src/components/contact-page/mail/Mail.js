@@ -33,11 +33,13 @@ class Mail extends Component {
     this.state = {
       name: "",
       email: "",
+      number: "",
       subject: "",
       message: "",
       formErrors: {
         name: "",
         email: "",
+        number: "",
         subject: "",
         message: "",
       },
@@ -73,21 +75,22 @@ class Mail extends Component {
 
     if (formValid(this.state)) {
       // Handle form validation success
-      const { name, email, subject, message } = this.state;
+      const { name, email, number, subject, message } = this.state;
 
       // Set template params
       let templateParams = {
         name: name,
         email: email,
+        number: number,
         subject: subject,
         message: message,
       };
 
       emailjs.send(
-        "service_vx1kefm",
-        "template_2rsbnbr",
+        "service_iy0e5qj",
+        "template_y7uhcvk",
         templateParams,
-        "user_bTFsTGKw8lxQ3pgyrwFWI"
+        "user_t9OXtW64CrlOkPt2QZIXb"
         
       );
 
@@ -96,6 +99,7 @@ class Mail extends Component {
         --SUBMITTING--
         Name: ${name}
         Email: ${email}
+        Number: ${number}
         Subject: ${subject}
         Message: ${message}
       `);
@@ -114,6 +118,7 @@ class Mail extends Component {
     this.setState({
       name: "",
       email: "",
+      number:"",
       subject: "",
       message: "",
     });
@@ -133,6 +138,9 @@ class Mail extends Component {
           ? ""
           : "Please enter a valid email address.";
         break;
+      case "number":
+          formErrors.number = value.length < 1 ? "Please enter a number." : "";
+          break;
       case "subject":
         formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
         break;
@@ -223,6 +231,24 @@ class Mail extends Component {
                   ></input>
                   {formErrors.email.length > 0 && (
                     <span className="errorMessage">{formErrors.email}</span>
+                  )}
+                </div>
+                <br/>
+                <br/>
+                <div className="col-12">
+                  <input
+                    type="number"
+                    name="number"
+                    value={this.state.number}
+                    className={`form-control formInput ${
+                      formErrors.number.length > 0 ? "error" : null
+                    }`}
+                    onChange={this.handleChange}
+                    placeholder="Cep Telefonu Numaranız"
+                    noValidate
+                  ></input>
+                  {formErrors.number.length > 0 && (
+                    <span className="errorMessage">{formErrors.number}</span>
                   )}
                 </div>
                 <br/>
