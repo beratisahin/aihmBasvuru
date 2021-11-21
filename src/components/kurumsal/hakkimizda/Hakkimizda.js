@@ -69,7 +69,7 @@ Yaptığınız başvuruyu sizin için takip edelim.  </p>
 
                 <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Ayrıca;
                     <ul>
-                       <li> Adli Sicil kaydının sildirilmesi konusunda  <a className="baglantı" style={{color:"#fdb11b",fontWeight:"bold"}} href="https://adlisicilsildir.com/" target="_blank">Adli Sicil Sildirme</a> sitesini ziyaret edip uzman ekibimiz ile irtibata geçebilirsiniz.</li>
+                       <li> Adli Sicil kaydının sildirilmesi konusunda  <a className="baglantı" style={{color:"#fdb11b",fontWeight:"bold"}} href="https://adlisicilsildir.netlify.app/" target="_blank">Adli Sicil Sildirme</a> sitesini ziyaret edip uzman ekibimiz ile irtibata geçebilirsiniz.</li>
                         <li>Maillerinizi <a className="baglanti" style={{color:"#fdb11b",fontWeight:"bold"}} href="mailto:aihm.basvurma@gmail.com">aihm.basvurma@gmail.com</a> üzerinden iletebilirsiniz.</li>
                     </ul>
                     
