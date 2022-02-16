@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import Foooter from "./components/footer/Foooter";
-import BottomMenu from "./components/footer/BottomMenu";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import PhoneIcon from '@material-ui/icons/Phone';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
+import Echr from "./echr.png";
+import echr from "./components/home/aihm_home.png";
 
 import {
   BrowserRouter as Router,
@@ -14,6 +13,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/home/Home";
+import Aihmbasvuru from "./components/kurumsal/AihmBasvuru";
 
 
 
@@ -22,30 +22,24 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="col-12 m-0 p-0">
+        
           
-            
+        
         <div className="col-12 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"1rem"}}>
+        <a href="/"><img className="logo" src={echr}></img></a>
                  &nbsp;
                   <a
-                    href="https://wa.me/+905427724718"
+                    href="https://wa.me/+905376971155"
                     target="_blank"
                     style={{ float: "left" }}
                   >
                     <PhoneIcon className="icon_top" />
                     
                   </a>
-                  <p className="top_icon_info">&nbsp;0542 772 4718</p>
+                  <p className="top_icon_info">&nbsp;0537 697 11 55</p>
 
-                  <a
-                    href="tel: +905427724718"
-                    target="_blank"
-                    style={{ float: "left"}}
-                  >
-                    <AccessTimeIcon className="icon_top"  />
-                  </a>
-                  <p className="top_icon_info">&nbsp;09:00 - 20:30</p>
-            </div>
+                  
+          </div>
           
           <br/>
           <br/>
@@ -58,6 +52,8 @@ function App() {
           <div className="interior">
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/hakkimizda" component={Home} />
+            <Route exact path="/aihm-basvurusu" component={Aihmbasvuru} />
          
             
           
@@ -69,7 +65,7 @@ function App() {
 
           <div className="roof-phone">
                 <a
-                    href="tel: +905427724718"
+                    href="tel: +905376971155"
                     className="phone_float"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -79,7 +75,7 @@ function App() {
             </div>
             <div className="roof-whatsapp">
                 <a
-                    href="https://wa.me/+905427724718"
+                    href="https://wa.me/+905376971155"
                     className="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -88,7 +84,7 @@ function App() {
                 </a>
             </div>
 
-        </div>
+        
       </div>
     </Router>
   );

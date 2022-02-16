@@ -34,7 +34,7 @@ function Hakkimizda() {
                <br/>
                <br/>
                 <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> AİHM'e kimler başvurabilir?
-                AİHS 34.Maddeye göre;
+                AİHS 34.Maddeye göre;</p>
                     <ul>
                         <li>Gerçek kişiler,</li>
                         <li>Tüzel kişiler</li>
@@ -43,12 +43,11 @@ function Hakkimizda() {
                         <li>AİHS veya ek Protokollerdeki haklarının ihlal edilmesi nedeniyle mağdur olduğunu düşünen herkes;</li>
 
                     </ul>
-                    Avrupa İnsan Hakları Mahkemesi’ne başvuru yapabilir.
-                </p>
+                
                 <br/>
                 <br/>
                 <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> AİHM'e başvuru şartları nelerdir?
-                AİHS 35.Maddeye göre;
+                AİHS 35.Maddeye göre;</p>
                     <ul>
                         <li>AİHM başvurusundan önce iç hukuk yolları tüketilmiş olmalıdır. Bu aşamada
 gidilmesi gereken son iç hukuk yolu Anayasa Mahkemesidir.</li>
@@ -59,21 +58,21 @@ gidilmesi gereken son iç hukuk yolu Anayasa Mahkemesidir.</li>
                         <li>Başvurucunun aleyhindeki durum önemli bir hak kaybına, zarara ya da ihlale sebebiyet verir nitelikte olmalıdır.</li>
 
                     </ul>
-                    Avrupa İnsan Hakları Mahkemesi’ne başvuru yapabilir.
-                </p>
+                    
+                
                 <br/>
 
                 <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Hemen arayın, AİHM bireysel başvurunuzu birlikte yapalım.
 Yaptığınız başvuruyu sizin için takip edelim.  </p>
                 <br/>
 
-                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Ayrıca;
+                <p className="baslik"><GavelIcon style={{color:"#fdb11b",fontSize:"large"}}/> Ayrıca; </p>
                     <ul>
                        <li> Adli Sicil kaydının sildirilmesi konusunda  <a className="baglantı" style={{color:"#fdb11b",fontWeight:"bold"}} href="https://adlisicilsildir.netlify.app/" target="_blank">Adli Sicil Sildirme</a> sitesini ziyaret edip uzman ekibimiz ile irtibata geçebilirsiniz.</li>
                         <li>Maillerinizi <a className="baglanti" style={{color:"#fdb11b",fontWeight:"bold"}} href="mailto:aihm.basvurma@gmail.com">aihm.basvurma@gmail.com</a> üzerinden iletebilirsiniz.</li>
                     </ul>
                     
-                </p>
+               
                 <br/>
 
                 </p>

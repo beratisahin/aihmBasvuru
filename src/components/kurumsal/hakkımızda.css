@@ -5,8 +5,12 @@
     padding-right: 10%;
     
 }
-
-
+.baslik{
+    font-weight: bold !important;
+}
+.ul .li{
+    color: orange !important;
+}
 
 
 /* On screens that are less than 1025px wide, make the sidebar into a topbar */

@@ -1,48 +1,4 @@
 
-.c1,.c2{
-  padding:2rem !important;
-  background-color: #E0EFE9 !important;
-  border-radius: 1rem !important;
-  margin-bottom: 1rem !important;
-  height:17rem !important;
-
-}
-
-.c3,.c4{
-  padding:2rem !important;
-  background-color: #E0EFE9 !important;
-  border-radius: 1rem !important;
-  margin-bottom: 1rem !important;
-  height:18rem !important;
-
-}
-
-.c5,.c6{
-  padding:2rem !important;
-  background-color: #E0EFE9 !important;
-  border-radius: 1rem !important;
-  margin-bottom: 1rem !important;
-  height: 33rem !important;
-
-}
-
-.c7,.c8{
-  padding:2rem !important;
-  background-color: #E0EFE9 !important;
-  border-radius: 1rem !important;
-  margin-bottom: 1rem !important;
-  height: 24rem !important;
-
-}
-
-.c9,.c10{
-  padding:2rem !important;
-  background-color: #E0EFE9 !important;
-  border-radius: 1rem !important;
-  margin-bottom: 1rem !important;
-  height: 75rem !important;
-
-}
 .harita_baslik{
   font-size: medium !important;
   color: #2E6772;
@@ -161,35 +117,6 @@
   
 }
 
-
-
-
-
-
-
-/* On screens that are less than 1370px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1370px) {
-  .c1,.c2{
-    height:30rem !important;
-  }
-  .c3,.c4{
-    height:30rem !important;
-  }
-  .c5,.c6{
-    height: 50rem !important;
-  }
-  .c7,.c8{
-    height: 40rem !important;
-  }
-  .c9,.c10{
-    height: 110rem !important;
-
-  }
-  
-}
-
-
-
 /* On screens that are less than 800px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
    
@@ -217,23 +144,34 @@
       .more .read-more, .more .icon-links a i{
         font-size: small;
       }
+      .image{
+        width: 100% !important;
+        height: 25rem !important;
+      }
     
 
      
 }
 
 /* On screens that are less than 800px wide, make the sidebar into a topbar */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+    .main_photo{
+      width: 100% !important;
+      
+    }
   
     .image .details p{
       font-size: 14px !important;
      
     }
+    .mahkeme{
+      font-size: small !important;
+    }
     .more .read-more, .more a i{
       font-size: x-small;
     }
     .icon-links{
-      display: none;
+      display: none !important;
     }
 
    

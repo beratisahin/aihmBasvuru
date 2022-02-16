@@ -4,22 +4,27 @@
   padding: 0% !important;
   background-color: #F5F5F3 !important;
 }
-
+.logo{
+  width: 20rem !important;
+  position:absolute !important;
+  top:2px;
+  left: 2rem;
+}
 
 .icon_top{
   font-size: x-large !important;
-  color:#fdb11b !important;
+  color:#25d366 !important;
   margin-left: 1rem !important;
 }
 
 .icon_top:hover{
-  color:#3353cb
+  color:#4682B4
   !important;
 }
 
 .top_icon_info{
   font-size: medium !important;
-  color:#3353cb
+  color:#4682B4
   !important;
 }
 

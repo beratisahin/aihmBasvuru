@@ -1,8 +1,8 @@
 import React from "react";
-import Hakkımızda from "../kurumsal/hakkimizda/Hakkimizda";
-import Mail from "../contact-page/mail/Mail";
+import Hakkımızda from "../kurumsal/Hakkimizda";
+import AihmBasvuru from "../kurumsal/AihmBasvuru";
+import Mail from "../contact-page/Mail";
 import aihm from "./aihm_home.png";
-import aihm2 from "./aihm2.png";
 import aihm3 from "./aihm.jpg";
 import "./Home.css"
 
@@ -13,10 +13,10 @@ function Home() {
 
       <div className="col-12 hakkımız" style={{ borderRadius: "1rem"}}>
       <div class="image">
-                  <img src={aihm3} alt="AİHM" style={{width:"100%",height:"30rem"}}></img>
+                  <img className="aihmphoto" src={aihm3} alt="AİHM" style={{width:"100%",height:"30rem"}}></img>
                   <div class="details">
                       <a href="#" style={{textDecoration:"none",color:"white"}}><h2><b>Avrupa İnsan Hakları Mahkemesi</b></h2></a>
-                      <p>Mahkeme teşkilatına ve onun yargılama usulüne ilişkin hükümler, Avrupa İnsan Hakları Sözleşmesinin İkinci Kısmında 19 ila 51. maddeler arasında ve AİHM İçtüzüğünde yer almaktadır.</p>
+                      <p className="mahkeme">Mahkeme teşkilatına ve onun yargılama usulüne ilişkin hükümler, Avrupa İnsan Hakları Sözleşmesinin İkinci Kısmında 19 ila 51. maddeler arasında ve AİHM İçtüzüğünde yer almaktadır.</p>
                   </div>
 
                   <div class="more">
@@ -29,7 +29,7 @@ function Home() {
                     </div>
                   </div>
 
-                </div>
+      </div>
         
         <Hakkımızda />
       </div>
