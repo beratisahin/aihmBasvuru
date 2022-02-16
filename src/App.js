@@ -35,7 +35,7 @@ function App() {
           
         
         <div className="col-12 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"1rem"}}>
-        <a href="/"><img className="logo" src={echr}></img></a>
+        <a href="/"><img className="logo" title="AİHM Başvurusu" src={echr}></img></a>
                  &nbsp;
                   <a
                     href="https://wa.me/+905376971155"
