@@ -14,6 +14,15 @@ import {
 
 import Home from "./components/home/Home";
 import Aihmbasvuru from "./components/kurumsal/AihmBasvuru";
+import aihm2 from "./components/kurumsal/Aihm2";
+import aihm3 from "./components/kurumsal/Aihm3";
+import aihm4 from "./components/kurumsal/Aihm4";
+import aihm5 from "./components/kurumsal/Aihm5";
+import aihm6 from "./components/kurumsal/Aihm6";
+import aihm7 from "./components/kurumsal/Aihm7";
+import aihm8 from "./components/kurumsal/Aihm8";
+import aihm9 from "./components/kurumsal/Aihm9";
+import aihm10 from "./components/kurumsal/Aihm10";
 
 
 
@@ -53,7 +62,17 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/hakkimizda" component={Home} />
-            <Route exact path="/aihm-basvurusu" component={Aihmbasvuru} />
+            <Route exact path="/aihm-basvuru" component={Aihmbasvuru} />
+            <Route exact path="/aihme-kimler-basvurabilir" component={aihm2} />
+            <Route exact path="/aihm-basvuru-sartlari" component={aihm3} />
+            <Route exact path="/aihme-basvurular" component={aihm4} />
+            <Route exact path="/aihm" component={aihm5} />
+            <Route exact path="/aihm-yapisi" component={aihm6} />
+            <Route exact path="/anayasa-mahkemesi" component={aihm7} />
+            <Route exact path="/aihm-basvuru-yollari" component={aihm8} />
+            <Route exact path="/aihm-basvuru-formu" component={aihm9} />
+            <Route exact path="/aihme-dosya-sorgulama" component={aihm10} />
+
          
             
           
