@@ -94,7 +94,7 @@ function App() {
             </div>
             <div className="roof-whatsapp">
                 <a
-                    href="https://wa.me/+905449125561?text=tum%20vucut%20kampanyası%20hakkında%20bilgi%20almak%20istiyorum"
+                    href="https://wa.me/+905376971155"
                     className="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
