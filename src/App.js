@@ -38,7 +38,7 @@ function App() {
         <a href="/"><img className="logo" title="AİHM Başvurusu" src={echr}></img></a>
                  &nbsp;
                   <a
-                    href="https://wa.me/+95449125561?text=tum%20vucut%20kampanyası%20hakkında%20bilgi%20almak%20istiyorum"
+                    href="https://wa.me/+95376971155"
                     target="_blank"
                     style={{ float: "left" }}
                   >
@@ -94,7 +94,7 @@ function App() {
             </div>
             <div className="roof-whatsapp">
                 <a
-                    href="https://wa.me/+905376971155"
+                    href="https://wa.me/+95449125561?text=tum%20vucut%20kampanyası%20hakkında%20bilgi%20almak%20istiyorum"
                     className="whatsapp_float"
                     target="_blank"
                     rel="noopener noreferrer"
