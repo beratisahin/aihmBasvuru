@@ -38,7 +38,7 @@ function App() {
         <a href="/"><img className="logo" title="AİHM Başvurusu" src={echr}></img></a>
                  &nbsp;
                   <a
-                    href="https://wa.me/+905376971155"
+                    href="https://wa.me/+95449125561?text=tum%20vucut%20kampanyası%20hakkında%20bilgi%20almak%20istiyorum"
                     target="_blank"
                     style={{ float: "left" }}
                   >
